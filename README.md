@@ -1,153 +1,854 @@
-<div data-v-5e9078c0=""><h1 data-v-5e9078c0="">Top 117 C# interview
-      questions and answers in 2021.</h1> <p data-v-5e9078c0="">
-        You can check all
-        117
-        C# interview questions here 👉
-        https://devinterview.io/dev/cSharp-interview-questions
-      </p> <br data-v-5e9078c0=""> <div data-v-5e9078c0="" class="unit"><div><h2>🔹 1. What is an Object?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>According to MSDN, "<em>a class or struct definition is like a blueprint that specifies what the type can do. An object is basically a block of memory that has been allocated and configured according to the blueprint. A program may create many objects of the same class. Objects are also called instances, and they can be stored in either a named variable or in an array or collection. Client code is the code that uses these variables to call the methods and access the public properties of the object. In an object-oriented language such as C#, a typical program consists of multiple objects interacting dynamically".</em></p><p>Objects helps us to access the member of a class or struct either they can be fields, methods or properties, by using the dot. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is an Object? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 2. What is the difference between "continue" and "break" statements in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li>using <strong>break</strong> statement, you can jump out of a loop</li><li>using <strong>continue</strong> statement, you can jump over one iteration and then resume your loop execution</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is the difference between &quot;continue&quot; and &quot;break&quot; statements in C#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 3. What is C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>C#</strong> is the programming language for writing Microsoft .NET applications. C# provides the rapid application development found in Visual Basic with the power of C++. Its syntax is similar to C++ syntax and meets 100% of the requirements of OOPs like the following: </p><ul><li>Abstraction</li><li>Encapsulation</li><li>Polymorphism</li><li>Inheritance</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is C#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 4. What are property Accessors?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <em>get</em> and <em>set</em> portions or blocks of a property are called accessors. These are useful to restrict the accessibility of a property, the set accessor specifies that we can assign a value to a private field in a property and without the set accessor property it is like a read-only field. By the get accessor we can access the value of the private field, in other words it returns a single value. A Get accessor specifies that we can access the value of a field publically.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What are property Accessors? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 5. What are nullable types in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>C# provides a special data types, the <strong>nullable types</strong>, to which you can assign normal range of values as well as null values.</p><p>For example, you can store any value from -2,147,483,648 to 2,147,483,647 or null in a <code>Nullable&lt;Int32&gt;</code> variable. Similarly, you can assign true, false, or null in a <code>Nullable&lt;bool&gt;</code> variable.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm" rel="noreferrer" target="_blank" title="What are nullable types in C#? Interview Questions Source To Answer">tutorialspoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 6. Why can't you specify the accessibility modifier for methods inside the interface?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>In an interface, we have virtual methods that do not have method definition. All the methods are there to be overridden in the derived class. That's why they all are public.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.guru99.com/c-sharp-interview-questions.html" rel="noreferrer" target="_blank" title="Why can't you specify the accessibility modifier for methods inside the interface? Interview Questions Source To Answer">guru99.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 7. What are reference types in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The <strong>reference types</strong> do not contain the actual data stored in a variable, but they contain a reference to the variables.</p><p>In other words, they refer to a memory location. Using multiple variables, the reference types can refer to a memory location. If the data in the memory location is changed by one of the variables, the other variable automatically reflects this change in value. Example of built-in reference types are: object, dynamic, and string.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm" rel="noreferrer" target="_blank" title="What are reference types in C#? Interview Questions Source To Answer">tutorialspoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 8. What are generics in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Generics</strong> allow you to delay the specification of the data type of programming elements in a class or a method, until it is actually used in the program. In other words, generics allow you to write a class or method that can work with any data type.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What are generics in C#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 9. What is an Abstract Class?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>An <strong>Abstract class</strong> is a class which is denoted by abstract keyword and can be used only as a Base class. An Abstract class should always be inherited. An instance of the class itself cannot be created. If we do not want any program to create an object of a class, then such classes can be made abstract.</p><p>Any method in the abstract class does not have implementations in the same class. But they must be implemented in the child class.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.softwaretestinghelp.com/c-sharp-interview-questions/" rel="noreferrer" target="_blank" title="What is an Abstract Class? Interview Questions Source To Answer">softwaretestinghelp.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 10. What are Custom Exceptions?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Sometimes there are some errors that need to be handeled as per user requirements. Custom exceptions are used for them and are used defined exceptions.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.guru99.com/c-sharp-interview-questions.html" rel="noreferrer" target="_blank" title="What are Custom Exceptions? Interview Questions Source To Answer">guru99.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 11. What is namespace in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>namespace</strong> is designed for providing a way to keep one set of names separate from another. The class names declared in one namespace does not conflict with the same class names declared in another.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm" rel="noreferrer" target="_blank" title="What is namespace in C#? Interview Questions Source To Answer">tutorialspoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 12. What is Serialization?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Serialization</strong> means saving the state of your object to secondary memory, such as a file.</p><ol><li>Binary serialization (Save your object data into binary format).  </li><li>Soap Serialization (Save your object data into binary format; mainly used in network related communication).  </li><li>XmlSerialization (Save your object data into an XML file).</li></ol></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is Serialization? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 13. What are dynamic type variables in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>You can store any type of value in the dynamic data type variable. Type checking for these types of variables takes place at run-time.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm" rel="noreferrer" target="_blank" title="What are dynamic type variables in C#? Interview Questions Source To Answer">tutorialspoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 14. Can "this" be used within a static method?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>We can't use <em>this</em> in static method because keyword <em>this</em> returns a reference to the current instance of the class containing it. Static methods (or any static member) do not belong to a particular instance. They exist without creating an instance of the class and call with the name of a class not by instance so we can't use this keyword in the body of static Methods, but in case of Extension Methods we can use it as the functions parameters.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="Can &quot;this&quot; be used within a static method? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 15. In how many ways you can pass parameters to a method?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>There are three ways that parameters can be passed to a method:</p><ul><li><strong>Value parameters</strong> − This method copies the actual value of an argument into the formal parameter of the function. In this case, changes made to the parameter inside the function have no effect on the argument.</li><li><strong>Reference parameters</strong> − This method copies the reference to the memory location of an argument into the formal parameter. This means that changes made to the parameter affect the argument.</li><li><strong>Output parameters</strong> − This method helps in returning more than one value.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm" rel="noreferrer" target="_blank" title="In how many ways you can pass parameters to a method? Interview Questions Source To Answer">tutorialspoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 16. What is the difference between a struct and a class in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Class and struct both are the user defined data type but have some major difference:  </p><p><strong>Struct</strong></p><ul><li>The struct is value type in C# and it inherits from System.Value Type.</li><li>Struct is usually used for smaller amounts of data.</li><li>Struct can't be inherited to other type.</li><li>A structure can't be abstract.</li><li>No need to create object by new keyword.</li><li>Do not have permission to create any default constructor.</li></ul><p><strong>Class</strong></p><ul><li>The class is reference type in C# and it inherits from the System.Object Type.</li><li>Classes are usually used for large amounts of data.</li><li>Classes can be inherited to other class.</li><li>A class can be abstract type.</li><li>We can't use an object of a class with using new keyword.</li><li>We can create a default constructor.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is the difference between a struct and a class in C#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 17. What are the different types of classes in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>The different types of class in C# are:</p><ul><li><strong>Partial class</strong> – Allows its members to be divided or shared with multiple .cs files. It is denoted by the keyword <em>Partial.</em></li><li><strong>Sealed class</strong> – It is a class which cannot be inherited. To access the members of a sealed class, we need to create the object of the class.&nbsp; It is denoted by the keyword <em>Sealed</em>.</li><li><strong>Abstract class</strong> – It is a class whose object cannot be instantiated. The class can only be inherited. It should contain at least one method.&nbsp; It is denoted by the keyword <em>abstract.</em></li><li><strong>Static class</strong> – It is a class which does not allow inheritance. The members of the class are also static.&nbsp; It is denoted by the keyword <em>static</em>. This keyword tells the compiler to check for any accidental instances of the static class.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.softwaretestinghelp.com/c-sharp-interview-questions/" rel="noreferrer" target="_blank" title="What are the different types of classes in C#? Interview Questions Source To Answer">softwaretestinghelp.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 18. Can you return multiple values from a function in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Yes! Using output parameters. A return statement can be used for returning only one value from a function. However, using output parameters, you can return two values from a function.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.tutorialspoint.com/csharp/csharp_interview_questions.htm" rel="noreferrer" target="_blank" title="Can you return multiple values from a function in C#? Interview Questions Source To Answer">tutorialspoint.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 19. Define Property in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Properties</strong> are members that provide a flexible mechanism to read, write or compute the values of private fields, in other words by the property we can access private fields. In other words we can say that a property is a return type function/method with one parameter or without a parameter. These are always public data members. It uses methods to access and assign values to private fields called accessors.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="Define Property in C#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 20. What is Boxing and Unboxing?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Boxing and Unboxing both are used for type conversion but have some difference:</p><ul><li><p><strong>Boxing</strong> - Boxing is the process of converting a value type data type to the object or to any interface data type which is implemented by this value type. When the CLR boxes a value means when CLR is converting a value type to Object Type, it wraps the value inside a System.Object and stores it on the heap area in application domain.</p></li><li><p><strong>Unboxing</strong> - Unboxing is also a process which is used to extract the value type from the object or any implemented interface type. Boxing may be done implicitly, but unboxing have to be explicit by code. </p></li></ul><p>The concept of boxing and unboxing underlines the C# unified view of the type system in which a value of any type can be treated as an object.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is Boxing and Unboxing? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 21. What is the difference between string and StringBuilder in c#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>String</strong></p><ul><li>It's an immutable object that hold string value.</li><li>Performance wise string is slow because its' create a new instance to override or change the previous value.</li><li>String belongs to System namespace.</li></ul><p><strong>StringBuilder</strong></p><ul><li>StringBuilder is a mutable object.  </li><li>Performance wise StringBuilder is very fast because it will use same instance of StringBuilder object to perform any operation like insert value in existing string.  </li><li>StringBuilder belongs to System.Text.Stringbuilder namespace.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is the difference between string and StringBuilder in c#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 22. How is Exception Handling implemented in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>Exception handling is done using four keywords in C#:</p><ul><li><strong>try</strong> – Contains a block of code for which an exception will be checked.</li><li><strong>catch</strong> – It is a program that catches an exception with the help of exception handler.</li><li><strong>finally</strong> – It is a block of code written to execute regardless whether an exception is caught or not.</li><li><strong>Throw</strong> – Throws an exception when a problem occurs.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.softwaretestinghelp.com/c-sharp-interview-questions/" rel="noreferrer" target="_blank" title="How is Exception Handling implemented in C#? Interview Questions Source To Answer">softwaretestinghelp.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 23. What is LINQ in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>LINQ</strong> stands for Language Integrated Query. LINQ has a great power of querying on any source of data. The data source could be collections of objects, database or XML files. We can easily retrieve data from any object that implements the <code>IEnumerable&lt;T&gt;</code> interface. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is LINQ in C#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 24. Can multiple catch blocks be executed?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>No, Multiple catch blocks can't be executed. Once the proper catch code executed, the control is transferred to the finally block and then the code that follows the finally block gets executed.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.guru99.com/c-sharp-interview-questions.html" rel="noreferrer" target="_blank" title="Can multiple catch blocks be executed? Interview Questions Source To Answer">guru99.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 25. What is enum in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>An <strong>enum</strong> is a value type with a set of related named constants often referred to as an enumerator list. The enum keyword is used to declare an enumeration. It is a primitive data type, which is user defined. An enum is used to create numeric constants in .NET framework. All the members of enum are of enum type. Their must be a numeric value for each enum type.</p><p><strong>Some points about enum</strong></p><ul><li>Enums are enumerated data type in C#.  </li><li>Enums are strongly typed constant. They are strongly typed, i.e. an enum of one type may not be implicitly assigned to an enum of another type even though the underlying value of their members are the same.  </li><li>Enumerations (enums) make your code much more readable and understandable.  </li><li>Enum values are fixed. Enum can be displayed as a string and processed as an integer.  </li><li>The default type is int, and the approved types are byte, sbyte, short, ushort, uint, long, and ulong.  </li><li>Every enum type automatically derives from System.Enum and thus we can use System.Enum methods on enums.  </li><li>Enums are value types and are created on the stack and not on the heap.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is enum in C#? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 26. What are partial classes?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>A <strong>partial</strong> class is only use to splits the definition of a class in two or more classes in a same source code file or more than one source files. You can create a class definition in multiple files but it will be compiled as one class at run time and also when you'll create an instance of this class so you can access all the methods from all source file with a same object. Partial classes can be create in the same namespace it's doesn't allowed to create a partial class in different namespace. </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What are partial classes? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 27. Why to use “finally” block in C#?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p><strong>Finally</strong> block will be executed irrespective of exception. So while executing the code in try block when exception is occurred, control is returned to catch block and at last <code>finally</code> block will be executed. So closing connection to database / releasing the file handlers can be kept in <code>finally</code> block.</p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="http://a4academics.com/interview-questions/52-dot-net-interview-questions/417-c-oops-interview-questions-and-answers?showall=&amp;start=1" rel="noreferrer" target="_blank" title="Why to use “finally” block in C#? Interview Questions Source To Answer">a4academics.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 28. What you understand by Value types and Reference types in C#.Net?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><p>In C# data types can be of two types: <strong>Value Types</strong> and <strong>Reference Types</strong>. Value type variables contain their object (or data) directly. If we copy one value type variable to another then we are actually making a copy of the object for the second variable. Value Type member will located into Stack and reference member will located in Heap always.  </p></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://stackoverflow.com/questions/412813/when-to-use-arraylist-over-array-in-c" rel="noreferrer" target="_blank" title="What you understand by Value types and Reference types in C#.Net? Interview Questions Source To Answer">stackoverflow.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 29. What is Managed or Unmanaged Code?</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><ul><li><strong>Managed Code</strong>  - The code, which is developed in .NET framework is known as managed code. This code is directly executed by CLR with the help of managed code execution. Any language that is written in .NET Framework is managed code.</li><li><strong>Unmanaged Code</strong> - The code, which is developed outside .NET framework is known as unmanaged code. Applications that do not run under the control of the CLR are said to be unmanaged, and certain languages such as C++ can be used to write such applications, which, for example, access low - level functions of the operating system. Background compatibility with the code of VB, ASP and COM are examples of unmanaged code.</li></ul></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://www.c-sharpcorner.com/UploadFile/8ef97c/C-Sharp-net-interview-questions-and-answers/" rel="noreferrer" target="_blank" title="What is Managed or Unmanaged Code? Interview Questions Source To Answer">c-sharpcorner.com</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 30. Filter out the first 3 even numbers from the list using LINQ</h2></div> <div><h3>Answer:</h3> <div class="answer"><div><div><div class="AnswerBody"><pre><code><span class="token cVar">var</span> evenNumbers <span class="token cBase">=</span> List
-   <span class="token cBase">.</span><span class="token cMod">Where</span><span class="token cBase">(</span>x <span class="token cBase">=&gt;</span> x <span class="token cBase">%</span> <span class="token cNum">2</span> <span class="token cBase">==</span><span class="token cNum">0</span><span class="token cBase">)</span>
-   <span class="token cBase">.</span><span class="token cMod">Take</span><span class="token cBase">(</span><span class="token cNum">3</span><span class="token cBase">)</span></code></pre></div></div><div class="row my-2"><div><span><i>Source:</i>&nbsp;<span><a href="https://medium.com/sears-israel/my-number-one-c-interview-question-39cdaac16c" rel="noreferrer" target="_blank" title="Filter out the first 3 even numbers from the list using LINQ Interview Questions Source To Answer">medium.com/</a></span></span>&nbsp; &nbsp;</div></div></div></div></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 31. What is the difference between ref and out keywords?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 32. What is difference between Throw Exception and Throw Clause?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 33. A structure in C# can implement one or more interfaces. Is it true or false?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 34. What is the difference between Virtual method and Abstract method?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 35. What is the use of Null Coalescing Operator (??) in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 36. What is Virtual Method in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 37. What is the difference between Interface and Abstract Class?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 38. What is lambda expressions in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 39. Explain Anonymous type in C#</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 40. What is the difference between dynamic type variables and object type variables?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 41. What is the difference between Equality Operator (==) and Equals() Method in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 42. What are the uses of “using” in C#</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 43. How encapsulation is implemented in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 44. What is the difference between overloading and overriding?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 45. How can you prevent a class from overriding in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 46. Explain Code compilation in C#</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 47. What is the output of the program below? Explain your answer.</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 48. What is an anonymous function in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 49. What is difference between constants and readonly?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 50. What is Reflection in C#.Net?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 51. What is a Destructor in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 52. What is the difference between constant and readonly in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 53. What is scope of a Internal member variable of a C# class?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 54. What is delegates in C# and uses of delegates?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 55. What is extension method in C# and how to use them?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 56. What is sealed class in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 57. Can you allow a class to be inherited, but prevent a method from being overridden in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 58. Refactor the code</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 59. Given an array of ints, write a C# method to total all the values that are even numbers.</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 60. What interface should your data structure implement to make the "Where" method work?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 61. What is an Object Pool in .Net?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 62. What is difference between late binding and early binding in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 63. Is operator overloading supported in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 64. Why to use lock statement in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 65. What is the Constructor Chaining in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 66. What is the difference between dispose and finalize methods in c#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 67. Name difference between "is" and "as" operator in C#</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 68. What is marshalling and why do we need it?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 69. Can you create a function in C# which can accept varying number of arguments?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 70. Describe the accessibility modifier "protected internal".</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 71. What are the different ways a method can be overloaded?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 72. When to use ArrayList over array[] in c#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 73. What are the uses of delegates in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 74. What is the best practice to have best performance using Lazy objects?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 75. What is scope of a Protected Internal member variable of a C# class?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 76. What is Indexer in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 77. Explain what is short-circuit evaluation in C#</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 78. What are the differences between a multidimensional array and an array of arrays in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 79. What are pointer types in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 80. What is the "yield" keyword used for in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 81. IEnumerable vs List - What to Use? How do they work?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 82. What's the difference between StackOverflowError and OutOfMemoryError?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 83. Can we have only “try” block without “catch” block in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 84. What is the difference between System.ApplicationException class and System.SystemException class?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 85. Explain the difference between Select and Where</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 86. What is the difference between Func&lt;string,string&gt; and delegate?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 87. In try block if we add return statement whether finally block is executed in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 88. Can Multiple Inheritance implemented in C# ?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 89. What is the output of the program below?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 90. What is the use of conditional preprocessor directive in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 91. What's the difference between the System.Array.CopyTo() and System.Array.Clone()?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 92. What is jagged array in C#.Net and when to prefer jagged arrays over multi-dimensional arrays?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 93. What is the “volatile” keyword used for?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 94. What is the method MemberwiseClone() doing?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 95. Can you add extension methods to an existing static class?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 96. Explain the difference between IQueryable, ICollection, IList &amp; IDictionary interfaces?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 97. What is the use of static constructors?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 98. Implement the "Where" method in C#</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 99. What is the difference between lambdas and delegates?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div><div data-v-5e9078c0="" class="unit"><div><h2>🔹 100. What is a preprocessor directives in C#?</h2></div> <div>
-    👉🏼 Check
-    <a href="https://devinterview.io/dev/cSharp-interview-questions">all 117 answers</a></div> <br><br></div> <div data-v-5e9078c0="" class="end"></div> <br data-v-5e9078c0="">
-      Thanks 🙌 for reading and good luck on your next tech interview!
-      <br data-v-5e9078c0="">
-      Explore 3800+ dev interview question here 👉
-      <a data-v-5e9078c0="" href="https://devinterview.io/">Devinterview.io</a></div>
+# 100 Must-Know C# Interview Questions
+
+<div>
+<p align="center">
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
+#### You can also find all 100 answers here 👉 [Devinterview.io - C#](https://devinterview.io/questions/web-and-mobile-development/c-sharp-interview-questions)
+
+<br>
+
+## 1. What is _C#_ and what are its key features?
+
+**C#**, pronounced "C-sharp," is an object-oriented, multi-paradigm programming language developed by **Microsoft** as part of its .NET initiative. It's widely used for developing applications targeting the Windows ecosystem.
+
+### Key Features of C#
+
+1. **Simplicity**: C# streamlines complex tasks, making common programming patterns more manageable.
+
+2. **Type Safety**: It employs a robust type system that mitigates many common programming errors at compile time.
+
+3. **Object-Oriented Design**: It encourages modular, reusable code structures through classes and interfaces.
+
+4. **Scalability**: C# supports both small, quick programs and large, intricate applications.
+
+5. **Cross-Language Support**: It integrates seamlessly with other languages in the .NET ecosystem, offering advantages such as unified debugging and code reuse.
+
+6. **Language Interoperability**: Developers can leverage code from other languages integrated into .NET.
+
+7. **Memory Management**: It uses automatic memory management, reducing the burden of manual memory allocation and deallocation.
+
+8. **Asynchronous Programming**: C# provides powerful tools to create responsive applications, such as the `async` and `await` keywords.
+
+9. **Integrated Development Environment (IDE)**: Visual Studio is a robust and popular tool for C# development, offering features like IntelliSense and debugging.
+
+10. **Library Support**: C# is backed by a vast standard library that simplifies various tasks.
+
+11. **Modern Features**: C# continues to evolve, leveraging contemporary software development concepts and practices.
+
+12. **Suitability for Web Development**: C# is used in conjunction with ASP.NET for developing dynamic web applications and services.
+
+13. **LINQ (Language-Integrated Query)**: C# provides LINQ, enabling developers to query collections akin to SQL.
+
+14. **Built-In Security Features**: C# includes functionalities such as Code Access Security (CAS) and Role-Based Security.
+
+15. **Native Code Execution**: C# applications are executed through the Common Language Runtime (CLR), offering platform independence.
+
+16. **Exception Handling**: It utilizes a structured error-handling approach, making it easier to reason about potential code issues.
+
+17. **Polymorphism and Inheritance**: These essential object-oriented concepts are foundational to C#.
+
+### Memory Management in C#
+
+C# uses the **Garbage Collector (GC)** for automatic memory management. The GC identifies and removes objects that are no longer in use, optimizing memory consumption. However, improper memory handling can lead to memory leaks or inefficient GC performance, underscoring the need for developer awareness.
+
+### Strong Types in C#
+
+One of the defining characteristics of C# is its strong type system. It enforces type checking at compile time, reducing the likelihood of data-related errors. This stringency extends to both **primitive types** (e.g., `int`, `float`, `bool`) and **user-defined types**. C# 7.0 onward introduced **"pattern matching"**, enhancing the language's handling of types and enabling straightforward type-based operations.
+
+### Asynchronous Programming Support
+
+C# incorporates a task-based model for efficient asynchronous execution. This approach, facilitated by the `async` and `await` keywords, mitigates thread-related overhead typically associated with multithreading, bolstering application performance.
+
+### Code Access Security
+
+Historically, C# applications implemented Code Access Security (CAS). This feature defined and enforced permissions for varying levels of privilege within an application. CAS has been gradually phased out in newer versions of .NET, but C# remains renowned for its robust security features.
+<br>
+
+## 2. Explain the basic structure of a _C# program_.
+
+Let's look at the basic structure of a C# program, including its key elements like **Namespaces**, **Classes**, **Methods**, **Variables**, **Keywords for types**, **Statements**, **Directives** and the **Main method**. 
+
+### Main Program Components
+
+- **Namespaces**: Serve as containers for related classes; they help prevent naming conflicts. The most commonly used namespace is `System`, which provides access to fundamental types, such as strings and exceptions. Examples: `System`, `System.Collections`, and `System.Text`.
+
+- **Class**: Acts as a blueprint for objects. A program can have multiple classes, but **only one of them should have the Main method.** Such a class is referred to as the "startup" class. Here is a basic example of the structure of the startup class.
+
+  ```csharp
+  namespace MyApp
+  {
+      class Program
+      {
+          static void Main()
+          {
+              // Program execution starts here.
+          }
+      }
+  }
+  ```
+
+- **Method**: Represents a collection of statements that are grouped together to perform a specific operation. The Main method is the entry point for a C# application.
+
+- **Variables**: They store data that can be manipulated throughout the program. For instance, you can use a variable to keep track of score in a game or to store a user's input.
+
+- **Console Input/Output**: The `System.Console` class provides methods to read input from and write output to the console.
+
+- **Control Statements**: Such as `if-else` and `while`, help in altering the program's flow based on conditions.
+
+- **Comments**: These are non-executing lines used for documentation. In C#, a single line comment begins with `//`, and a multi-line comment starts with `/*` and ends with `*/`.
+
+- **Directives**: These are special instructions that tell the compiler to perform specific tasks. For instance, the `#include` directive is used to add the contents of a file to the source file during compilation, and `#define` is used to create symbolic constants.
+
+### Code Example: Bricks Count
+
+Here is the C# code:
+
+```csharp
+// Count the number of bricks in a pyramid
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter the number of levels in the pyramid: ");
+        int levels = int.Parse(Console.ReadLine());
+
+        int totalBricks = CalculateBricks(levels);
+        Console.WriteLine($"Total bricks in the {levels}-level pyramid: {totalBricks}");
+    }
+
+    static int CalculateBricks(int levels)
+    {
+        int bricksAtBase = levels * levels;
+        return (bricksAtBase * (bricksAtBase + 1) * (2 * bricksAtBase + 1)) / 6;
+    }
+}
+```
+<br>
+
+## 3. What are the different types of _data types_ available in _C#_?
+
+**C#** features a variety of data types, each tailored to specific data needs. These types are grouped under different categories that include:
+
+- **Value Types**: They store their own data and are distinct from one another. Examples include basic types like **int** and **float**, as well as **struct**.
+- **Reference Types**: These types store references to their data. **Classes**, **arrays**, and **delegates** are classic examples.
+- **Integral Types**: These are whole numbers, either signed or unsigned.
+- **Floating-Point Types**: These accommodate non-integer numbers.
+- **High-Precision Decimal Type**: Ideal for precise monetary and scientific calculations.
+- **Boolean Type**: Represents truth values.
+- **Character Types**: Specifically designed for holding characters and described in two flavors: **Uniocode** and **ASCII**.
+- **Text Types**: Specifically tailored for text like strings.
+
+### Basic Types
+
+These are the ones that are used most commonly in regular programming tasks.
+
+#### `bool` (Boolean)
+
+It signifies either **true** or **false** in logical operations.
+
+- Storage Size: Not precise; generally 1 byte
+- Default Value: **false**
+- `True` Equivalents: Any non-zero numerical value; for instance, 1 is the same as **true**. Non-null object references are also **true**.
+- `False` Equivalents: **0**, **null**, or an empty object reference
+
+#### `char` (Character)
+
+This represents a single Unicode character and is enclosed in **single quotes**.
+
+- Storage Size: 2 bytes or 16 bits.
+- Minimum Value: '0'
+- Maximum Value: 'uffff' or '65,535'
+- Default Value: **null**
+
+#### `sbyte`, `byte`, `short`, `ushort`, `int`, and `uint` (Integral Types)
+
+`byte`, `short`, and `int` are the most often used members in most applications.
+
+| Data Type | Size in Bytes | Range for Signed Values | Default Value |
+|-----------|-------------------|-----------------------------|-------------------|
+| `sbyte`   | 1                 | -128 to 127                 | 0                 |
+| `byte`    | 1                 | 0 to 255                    | 0                 |
+| `short`   | 2                 | -32,768 to 32,767           | 0                 |
+| `ushort`  | 2                 | 0 to 65,535                 | 0                 |
+| `int`     | 4                 | -2,147,483,648 to 2,147,483,647 | 0               |
+| `uint`    | 4                 | 0 to 4,294,967,295          | 0                 |
+
+#### `long` and `ulong`
+
+These types are for very larger numbers, and they are usually associated with memory consumption.
+
+- **Size in Bytes**: **8** (64 bits)
+- **Range for Signed Values**: Approximately ±9.22 x 10$^{18}$
+- **Default Value**: **0** for `long` and `ulong`
+  
+#### `float` and `double` (Floating-Point Types)
+
+Both `float` and `double` can accommodate fractional values, but their precision varies. `double` allows for more significant digits.
+
+- **Size in Bytes**: 4 for `float` and 8 for `double`
+- **Precision**: 7 decimal places for `float` and 15 decimal places for `double`
+- **Default Value**: 0.0
+
+#### `decimal` (High-Precision Decimal Type)
+
+This type is used for precision financial and monetary calculations.
+
+- **Size in Bytes**: 16 (128 bits)
+- **Precision**: Up to 28 decimal places for both integral and fractional parts.
+- **Default Value**: 0.0M
+
+#### String and Object Types
+
+The **object** type is a **base type for all other types**, while the **string** type is specifically tailored for text storage.
+
+- **Storage Size**: Variable
+- **Example**: 
+
+  ```c#
+  object obj = "Hello";                       // An object
+  string str = "Hello";                       // A string
+  ```
+
+### Other Types
+
+`struct`, `enum`, `Nullable`, `tuple`, `valueTuple` are among other types in C#.
+**Cards.dll** is the main Dynamic-Linked Library (DLL) file for the **Solitaire** game. The game needs access to visual assets and data configurations. The **Cards.dll** file provides the visual resources and supports specific functionalities for the game, such as drawing playing cards on the screen. This DLL might also contain card-specific details like symbols, suits, or card images.
+
+The **Cards.dll** file isn't intended for use in standalone applications but supports the Solitaire game. The DLL might include card-related resources created using tools like **Visual Studio** or third-party drawing software.
+
+### Integrating Visual Cues
+
+Visual representations, such as card images, can enhance user experience, making the game more engaging and intuitive. The DLL is likely key to linking these visual cues with code logic.
+
+### Code Example
+
+Here's a code snippet for providing a deck of cards using the Cards.dll:
+
+```csharp
+// Import the Cards.dll assembly
+using Cards;
+
+// Create a new deck of cards from the DLL
+Deck myDeck = new Deck();
+
+// Deal a card
+Card firstCard = myDeck.DrawACard();
+```
+<br>
+
+## 4. What is the difference between _value types_ and _reference types_?
+
+Let's look at the difference between **Value Types** and **Reference Types**.
+
+### Key Distinctions
+
+#### Data Storage
+
+- **Value Types**: Store the data in their memory space. Examples include primitive types like integers and floating-point numbers.
+- **Reference Types**: Store a reference to the data, which resides in the managed heap, and have dynamic storage size.
+
+#### Memory Management
+
+- **Value Types**: Managed by the stack. Memory is allocated and deallocated automatically within the scope of where they are defined.
+- **Reference Types**: Managed by the heap. Garbage Collector automatically allocates memory and reclaims it when the object is no longer referenced.
+
+#### Assignment Behavior
+
+- **Value Types**: Directly manipulate their allocated memory. Assigning one value type to another creates an independent copy.
+- **Reference Types**: Store a reference to the object's location in memory. Assigning a reference type to another only creates a new reference to the same object in memory.
+
+#### Performance
+
+- **Value Types**: Generally faster to access and manipulate because of their stack-based memory management. Ideal for smaller data types.
+- **Reference Types**: Slight performance overhead due to indirection (pointer dereferencing) when accessing data in heap memory.
+
+#### Nullability
+
+- **Value Types**: Cannot be `null`. They always have a defined value.
+- **Reference Types**: Can be `null`, especially if it's not been assigned an object.
+
+#### Type Categories
+
+- **Value Types**: Most primitive data types (int, float, bool, char, etc.), enums, and structs are value types.
+- **Reference Types**: Classes, arrays, strings, delegates, and objects of types that are derived from the base type `object` are reference types.
+
+### Code Example: Value and Reference Types
+
+Here is the C# code:
+
+```csharp
+using System;
+
+class ValueReferenceExample
+{
+    public static void Main(string[] args)
+    {
+        int val1 = 10;  // Value type: Example of a primitive type
+        int val2 = val1;  // val2 is a separate copy of the value
+        
+        // Now modifying val2 will not change val1
+        val2 = 20;
+        
+        Console.WriteLine("val1: " + val1 + ", val2: " + val2);
+        
+        MyStruct struct1 = new MyStruct { Value = 5 };  // Value type: Example of a struct
+        MyStruct struct2 = struct1;  // struct2 is a separate copy
+        struct2.Value = 10;
+        Console.WriteLine("struct1: " + struct1.Value + ", struct2: " + struct2.Value);
+        
+        MyClass ref1 = new MyClass { SomeNumber = 7 };  // Reference type: Example of a class
+        MyClass ref2 = ref1;  // ref2 is a reference to the same object
+        ref2.SomeNumber = 15;
+        Console.WriteLine("ref1: " + ref1.SomeNumber + ", ref2: " + ref2.SomeNumber);
+        
+        string str1 = "Hello, World!";  // Reference type: Example of a string
+        string str2 = str1;
+        str2 += " Have a great day!";  // Modifying str2 will not change str1
+        Console.WriteLine("str1: " + str1 + ", str2: " + str2);
+    }
+}
+
+struct MyStruct
+{
+    public int Value;
+}
+
+class MyClass
+{
+    public int SomeNumber { get; set; }
+}
+```
+<br>
+
+## 5. What are _nullable types_ in _C#_?
+
+**Nullable types** are a special data type in C# that can represent both a regular value and `null`. It is a beneficial feature for representing data that might be absent or unknown.
+
+### Key Considerations for Using Nullable Types
+
+- **Memory Consumption**: Data types with explicit sizes, such as `int` or `bool`, need more space in memory when converted to nullable types.
+
+- **Performance**: Nullable types might result in fewer optimizations, particularly with certain operations.
+
+- **Clarity**: They offer transparency about the possible absence of a value.
+
+### The "null-conditional" operators
+
+In C#, there are dedicated **"null-conditional" operators** caters to appropriately performing actions for nullable types, ensuring that there is no NullReferenceException. Among these are `?.`, `??`, `??=`, and `?.[]`.
+
+### Syntax Requirements for Nullable Types
+
+- Assigning a value: `int? nullableInt = 10;`
+  
+- Assigning `null`: `nullableInt = null;`
+
+- Performing Operations: Before utilizing the value, ensure it's not null.
+
+  ```csharp
+  if (nullableInt.HasValue) {
+      int result = nullableInt.Value;
+  }
+  ```
+
+### Common Application Scenarios
+
+- **Database Interactions**: Adaptability to designate if a field is not set.
+
+- **API Requests**: Effective communication to specify if the endpoint did not return a value as anticipated.
+
+- **User Inputs**: Allowing for the perception of a lack of explicit user input.
+
+- **Workflow Dependencies**: Identifying components that necessitate additional data to proceed.
+<br>
+
+## 6. Can you describe what _namespaces_ are and how they are used in _C#_?
+
+A key concept in C#, a **namespace** organizes code, allows for better code management, and prevents naming conflicts between different elements (such as classes, interfaces, and enums).
+
+**Namespaces** are particularly useful in larger projects and team-based development.
+
+### Key Features
+
+1. **Granularity**: Namespaces provide a way to group related pieces of code, making it easier to navigate your codebase.
+2. **Uniqueness**: Every element in a namespace is guaranteed to have a unique name.
+3. **Accessibility Control**: By default, members in a namespace are accessible only within the same namespace. You can use `public` and `internal` access modifiers to control this.
+
+### Code Example: Basic Namespace
+
+Here is the C# code:
+
+```csharp
+namespace MyNamespace
+{
+    public class MyClass { /* ... */ }
+    
+    internal class MyInternalClass { /* ... */ }
+    
+    // This interface will be accessible across the entire project
+    public interface IMyInterface { /* ... */ }
+}
+```
+
+### Nested Namespace
+
+You can have nested namespaces to further organize your code.
+
+Here is the C# code:
+
+```csharp
+namespace ParentNamespace
+{
+    namespace ChildNamespace
+    {
+        public class ChildClass { /* ... */ }
+    }
+}
+```
+
+**Consider**: ChildNamespace is distinct from a top-level namespace.
+
+### Access
+
+Members of a **namespace** can be made more or less accessible using access modifiers.
+
+#### Code Example: Access Modifiers in a Namespace
+
+Here is the C# code:
+
+```csharp
+namespace MyNamespace
+{
+    // Without access modifier: internal by default
+    class MyInternalClass { /* ... */ }
+
+    // Public access modifier: accessible from any other code in the project
+    public class MyClass { /* ... */ }
+
+    // Private access modifier: not allowed in a namespace
+    // Error: 'private' is not valid in this context
+    // private void MyPrivateMethod() { /* ... */ } 
+}
+```
+
+### Using Directives
+
+Using `using` directives, you can avoid long, repetitive code.
+
+#### Code Example: Using Directives
+
+Here is the C# code:
+
+```csharp
+using System;
+using MyNamespace;  // this is a user-defined namespace
+
+// You can now directly use MyNamespace
+class Program
+{
+    static void Main()
+    {
+        MyClass myObj = new MyClass();
+        Console.WriteLine("MyObject is created");
+    }
+}
+```
+
+### Best Practices
+
+- **Consistency**: Decide on a consistent namespace naming convention, and ensure team members adhere to it.
+- **Relevance**: Use meaningful and descriptive names for your namespaces. A good practice is a reverse domain name, like `MyCompany.MyProduct`.
+- **Modularity**: Keep your namespaces well-structured and avoid making them too large, which can be counterproductive.
+
+### Common Built-In .NET Namespaces
+
+- **System**: Fundamental types and base types.
+- **System.Collections**: Implementations of standard collection classes (like lists, dictionaries, and queues).
+- **System.IO**: Input and output, including file operations.
+- **System.Linq**: Language Integrated Query (LINQ) functionality.
+
+### Common Namespaces
+
+- **System.Data**: Managed code for accessing data from relational data sources.
+- **System.Threading**: Enables multi-threading in applications.
+- **System.Xml**: Provides support for processing XML.
+<br>
+
+## 7. Explain the concept of _boxing_ and _unboxing_ in _C#_.
+
+**Boxing** is the process of converting a **value type** (struct) to a **reference type** (object) so it can be assigned to a variable of type `object` or an interface. Conversely, **unboxing** is the reverse operation.
+
+### Mechanism
+
+   - **Boxing**: When a value type is assigned to an `object`-typed variable or when it's passed as a method argument that expects an `object` or an interface type, the CLR boxes the value type, creating a reference-type object that holds the value.
+
+   - **Unboxing**: The CLR extracts the original value type from the object, provided the object actually contains such a value. A runtime error occurs if the object holds a different type.
+
+### Implications and Performance Considerations
+
+- **Performance**: Boxing and unboxing involve overhead due to memory allocation (when boxing) and type checks during unboxing. They are, therefore, less efficient than direct interactions with value types.
+
+- **Garbage Collection**: More aggressive memory management for short-lived objects could be necessary since **boxed objects reside on the heap**, subject to Garbage Collection.
+
+- **Potential for Errors**: Unboxing operations might fail with an `InvalidCastException` if the object's type doesn't match the expected value type.
+
+- **Type Mismatch**: There's a risk of unexpected behavior if types get mixed up, especially when unboxing.
+
+### Code Example: Boxing and Unboxing
+
+Here is the C# code:
+
+```csharp
+int number = 42;
+
+// Boxing: Converts integer to object
+object boxedNumber = number;
+
+// Unboxing: Converts object to integer
+int unboxedNumber = (int)boxedNumber;
+
+// This will throw an InvalidCastException
+// double potentialError = (double) boxedNumber;
+```
+<br>
+
+## 8. What is _Type Casting_ and what are its types in _C#_?
+
+**Type casting**, in the context of C#, refers to the explicit and implicit conversion of data types. While explicit casting might lead to data loss, implicit casting is carried out by the C# compiler, ensuring safe conversion.
+
+### Implicit Casting
+
+This form of casting is **automatic** and occurs when there is **no risk of data loss**. For instance, an `int` can be automatically cast to a `long` as there is no possibility of truncation.
+
+### Explicit Casting
+
+This form of casting must be done manually and is necessary when there is a risk of data loss. For example, when converting a `double` to an `int`, data loss due to truncation could occur. C# requires you to explicitly indicate such conversion, and if the conversion is not possible, it throws a `System.InvalidCastException`.
+
+### Using `as` Operand
+
+If you are sure that an object can be cast to a specific type, use the `as` operand for optimization. If the conversion is possible, the operand returns an object of the specified type; otherwise, it returns `null`.
+
+### The `is` Operator for Type Checking
+
+With the `is` operator, you can test whether an object is compatible with a specific type. This tool is very useful to prevent `InvalidCastException` errors.
+<br>
+
+## 9. What are _operators_ in _C#_ and can you provide examples?
+
+**Operators** in C# are symbols or keywords responsible for specific program actions, such as basic arithmetic, logical evaluations, or assignment.
+
+### Basic Operators
+
+#### Arithmetic Operators
+
+- **Addition**: `+`
+- **Subtraction**: `-`
+- **Multiplication**: `*`
+- **Division**: `/`
+- **Modulus**: `%` (remainder of division)
+
+```csharp
+int result = 10 % 3;  // Output: 1 (the remainder of 10 divided by 3)
+```
+
+#### Comparison Operators
+
+- **Equal to**: `==`
+- **Not equal to**: `!=`
+- **Greater than**: `>`
+- **Less than**: `<`
+- **Greater than or equal to**: `>=`
+- **Less than or equal to**: `<=`
+
+```csharp
+  bool isGreater = 5 > 3;  // Output: true
+```
+
+#### Conditional Operators
+
+- **AND (both conditions are true)**: `&&`
+- **OR (at least one condition is true)**: `||`
+  
+```csharp
+  bool conditionMet = (5 > 3) && (7 < 10);  // Output: true, both conditions are true
+```
+
+- **Ternary**: `?` and `:`
+```csharp
+    int max = (5 > 3) ? 5 : 3;  // Output: 5 (if true, takes the first value, if false, takes the second value)
+```
+
+- **Null Coalescing**: `??`
+```csharp
+    string name = incomingName ?? "Default Name";  // Output: The value in incomingName, or "Default Name" if incomingName is null
+```
+
+#### Bitwise Operators
+
+These operators perform actions at the bit level.
+
+- **AND**: `&`
+- **OR**: `|`
+- **XOR**: `^` (Exclusive OR)
+- **NOT**: `~` (Unary complement)
+- **Shift left**: `<<`
+- **Shift right**: `>>`
+
+```csharp
+  int bitwiseAndResult = 5 & 3;  // Output: 1 (bitwise AND of 5 and 3 is 1)
+```
+
+#### Assignment Operators
+
+- **Simple assignment**: `=`
+- **Add then assign**: `+=`
+- **Subtract then assign**: `-=`
+- **Multiply then assign**: `*=`
+- **Divide then assign**: `/=`
+- **Modulus then assign**: `%=`
+- **AND then assign**: `&=`
+- **OR then assign**: `|=`
+
+```csharp
+  int num = 5;
+  num += 3;  // num is now 8
+```
+<br>
+
+## 10. What is the difference between `==` _operator_ and `.Equals()` _method_?
+
+The `==` operator in C# is used to compare two objects for reference equality, meaning it checks whether the two objects are the same instance in memory. On the other hand, the `.Equals()` method is used to compare the actual values of the two objects, based on how the method is implemented for a particular class.
+
+For value types like `int`, `bool`, `double`, and `structs`, the `==` operator compares the values, whereas for reference types like `string` and custom classes, it compares the references.
+
+It's important to note that the behavior of the `==` operator can be overridden for reference types by overloading the operator, allowing it to compare values instead of references.
+
+The `.Equals()` method can also be overridden in classes to provide custom equality comparisons. By default, it behaves like the `==` operator for reference types but can be customized to compare values instead.
+<br>
+
+## 11. What is the purpose of the `var` _keyword_ in _C#_?
+
+Introduced in C# 3.0 along with the Language-Integrated Query (LINQ) features, the `var` keyword primarily serves to **reduce redundancy**.
+
+### Key Benefits
+
+- **Code Conciseness**: It streamlines code by inferring types, especially with complex types or generic data structures.
+
+- **Dynamic and Anonymous Types Support**: It's useful when using dynamic types or initializing objects with an anonymous type; a feature useful in LINQ queries.
+
+### Avoid Misusing `var`
+
+It's important to use `var` with caution to prevent these issues:
+
+- **Type Clarity**: Incorporating explicit type declarations can enhance code clarity, especially for beginners or when working with inherited code.
+
+- **Code Readability for Method Chaining**: Avoid using `var` excessively when chaining methods to maintain readability.
+
+### Best Practices and Common Use-Cases
+
+- **Initialization**: Use `var` while initializing; it helps adapt to object type changes, reduces redundancy, and aligns with the DRY (Don't Repeat Yourself) principle.
+
+- **For-Each Loops with Collections**: It's standard practice to use `var` in for-each loops when iterating through collections**.
+
+- **Complex or Generic Types**: `var` brings clarity and brevity when working with such types.
+
+### Code Example: Misusing `var`
+
+Here is the c# code:
+
+```csharp
+var user = GetUser();
+var customer = LookUpCustomer(user); // What's the type of customer?
+
+// This would be better for clarity:
+Customer customer = LookUpCustomer(user);
+```
+This code shows the potential confusion that can stem from not explicitly declaring types. In this example, using `var` might not communicate the "Customer" type as clearly or immediately as an explicit type declaration.
+<br>
+
+## 12. What are the differences between `const` and `readonly` _keywords_?
+
+**C#** supports two mechanisms for creating **immutable** fields: **`const`** and **`readonly`**.
+
+### Key Distinctions
+
+- **Initialization**: `const` fields are initialized when declared, while `readonly` fields can be initialized at the point of declaration or in the class constructor.
+
+- **Visibility**: `readonly` fields allow for differing values within different class instances, whereas `const` ensures the same value across all instances.
+
+- **Type Compatibility**: `const` fields are limited to primitive data types, `String`, and `null`. `readonly` can be utilized with any data type.
+
+- **Compile-Time/Run-Time**: `const` fields are evaluated at compile time. On the contrary, `readonly` fields are evaluated at run-time, fittingly appealing to scenarios that necessitate a run-time reference or state.
+
+### Code Example: const vs. readonly
+
+Here is the C# code:
+
+```csharp
+public class Example {
+    private readonly int readOnlyField;
+    public const int constField = 5;
+
+    public Example(int value) {
+        readOnlyField = value;
+    }
+
+    public void AssignValueToReadOnlyField(int value) {
+        readOnlyField = value;  // Will cause a compilation error
+    }
+}
+```
+
+Note that the `readOnlyField` is assigned its value either in the constructor or at declaration. Once it has a value, that value is unalterable. This invariance ensures its immutability. Likewise, `constField` is initialized with a value at the time of declaration and is unalterable for the duration of the program.
+<br>
+
+## 13. How does `checked` and `unchecked` _context_ affect arithmetic operations?
+
+In C#, the enablers `checked` and `unchecked` ensure more predictable behavior when using specific arithmetic operations. By default, C# employs overflow checking, but you can toggle to overflow wrapping using appropriate blocks.
+
+### Context Control Keywords
+
+- **checked**: Forces operations to produce exceptions for overflow.
+- **unchecked**: Causes operations to wrap on overflow.
+
+### When to Use Each Context
+
+- **checked**: Ideal when you require accurate numeric results to guarantee that potential overflows are detected and handled.
+  
+- **unchecked**: Primarily used to enhance performance in scenarios where the logic or the expected input range ensures that overflows are less probable or inconsequential.
+
+### C# Code Example
+
+Here is the C# code:
+
+```csharp
+using System;
+
+public class Program
+{
+    public static void Main()
+    {
+        int a = int.MaxValue;
+        int b = 1;
+        
+        Console.WriteLine("Using checked context:");
+        try {
+            checked {
+                int c = a + b;
+                Console.WriteLine($"Sum: {c}");
+            }
+        }
+        catch (OverflowException) {
+            Console.WriteLine("Overflow detected!");
+        }
+        
+        Console.WriteLine("\nUsing unchecked context:");
+        unchecked {
+            int d = a + b;
+            Console.WriteLine($"Sum (unlike c#): {d}");
+        }
+    }
+}
+```
+<br>
+
+## 14. What are the different ways to handle _errors_ in _C#_?
+
+**C#** offers multiple mechanisms for handling errors, from traditional **exception handling** to contemporary **asynchronous error management** strategies.
+
+### 5 Key Methods for Error Handling in C#
+
+1. **Exception Handling**: Based on `try-catch`, primarily for synchronous flows but also compatible with some asynchronous scenarios. Exceptions are caught and processed within `catch` blocks.
+
+2. **Logging and Monitoring**: Involves using services like `ILogger` or specialized tools to capture, evaluate, and report application errors. 
+
+3. **HTTP Status Codes**: Typically utilized in web applications to convey the status of a web request. RESTful services also often use these codes for error management.
+
+4. **Return Values**: Methods and functions can provide customized return values to signify different error states.
+
+5. **Task\<T\> and Task**: Primarily for asynchronous programming, indicating error states through `Task` results (`.Result`) or `Task<T>` members (`.IsFaulted`).
+
+While exceptions represent unexpected errors, the other methods can be better suited for the controlled handling of anticipated issues.
+
+For instance, a missing email in a registration form might be considered a normal scenario and should be conveyed back to the user via a **return value**, rather than triggering an exception.
+<br>
+
+## 15. Explain the role of the _garbage collector_ in _.NET_.
+
+The **Garbage Collector** (GC) is a key feature in **.NET** that automates memory management. Rather than requiring manual memory deallocation (as seen in languages like C/C++), the GC identifies and recovers memory that's no longer in use.
+
+### Benefits of Automatic Memory Management
+
+- **Reduced Memory Leaks**: The GC helps prevent leaks by reclaiming memory that's no longer accessible, even if the programmer forgets to free it.
+- **Simplified Memory Management**: Developers are freed from tedious tasks like memory allocation, tracking object lifetimes, and memory deallocation.
+- **Protection from Use-after-Free Bugs**: Segmentation faults and other issues caused by accessing memory that's been freed are avoided.
+
+### Fundamentals of the Garbage Collector
+
+- **Trigger Mechanism**: The GC is triggered in the background whenever certain memory thresholds are reached, reducing interruption to your program's execution.
+
+- **Process Overview**: It divides memory into three generations, each associated with a different cleanup frequency. Most objects are initially allocated in the first generation (Gen0). When the GC cleans up Gen0, it may promote some objects to Gen1, and so forth. The idea is that, over time, surviving objects are promoted to higher generations and require less frequent cleanup.
+
+- **Mark and Sweep**: During the cleanup cycle, the GC marks all reachable objects and then reclaims the memory occupied by objects that weren't marked. This process ensures that only inaccessible objects are collected.
+
+### Recommendations for Handling Memory in .NET
+
+- **Limit High-Frequency Object Instantiation**: Frequent creation and destruction of small, short-lived objects can lead to inefficient GC usage. Consider using object pools for such scenarios.
+
+- **Dispose of Unmanaged Resources**: Certain resources, like file handles or database connections, may not be managed by the GC alone. It's crucial to release them explicitly, typically by implementing the `IDisposable` pattern.
+
+- **Consider Generational Behavior**: The GC's generational approach means that data-heavy long-lived objects (LLDs) could remain in memory for extended periods. Be mindful of LLDs' persistence and their impact on memory consumption.
+
+### Code Example: Explicit Disposal with `using`
+
+Here is the C# code:
+
+```csharp
+using System;
+
+public class ResourceUser : IDisposable
+{
+    private IntPtr resource;  // Example unmanaged resource
+
+    public ResourceUser()
+    {
+        resource = SomeNativeLibrary.AllocateResource();
+    }
+
+    public void Dispose()
+    {
+        SomeNativeLibrary.DeallocateResource(resource);
+        GC.SuppressFinalize(this); // Omit if Dispose and the finalizer aren't both defined
+    }
+}
+
+public static class Program
+{
+    public static void Main()
+    {
+        using(var resourceUser = new ResourceUser())
+        {
+            // Use the resource
+        }
+        // resourceUser is automatically disposed here
+    }
+}
+```
+<br>
+
+
+
+#### Explore all 100 answers here 👉 [Devinterview.io - C#](https://devinterview.io/questions/web-and-mobile-development/c-sharp-interview-questions)
+
+<br>
+
+<a href="https://devinterview.io/questions/web-and-mobile-development/">
+<img src="https://firebasestorage.googleapis.com/v0/b/dev-stack-app.appspot.com/o/github-blog-img%2Fweb-and-mobile-development-github-img.jpg?alt=media&token=1b5eeecc-c9fb-49f5-9e03-50cf2e309555" alt="web-and-mobile-development" width="100%">
+</a>
+</p>
+
